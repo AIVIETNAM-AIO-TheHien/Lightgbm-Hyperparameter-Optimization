@@ -8,7 +8,7 @@ Repo này chuẩn bị đúng hai bảng dữ liệu dùng cho notebook so sánh
 Cả hai file dùng cùng một schema và chứa:
 
 - `Date`;
-- các feature calendar/Fourier/holiday/Tết/promotion từ pipeline Datathon;
+- các feature calendar/Fourier/holiday/Tết/promotion;
 - hai target gốc `Revenue` và `COGS`.
 
 Pipeline không tạo lag từ target và không dùng dữ liệu web traffic/inventory cùng ngày, vì các biến này có thể làm rò rỉ thông tin khi đánh giá dự báo cho toàn bộ năm 2022.
